@@ -1,0 +1,18 @@
+{
+  "$schema": "https://code.claude.com/schemas/plugin.json",
+  "name": "dvt-a2a-client",
+  "displayName": "DVT A2A Protocol Client",
+  "version": "1.0.0",
+  "description": "MCP server that acts as an A2A (Agent-to-Agent) protocol client. Discover agents, send messages, manage tasks, and stream responses using the A2A protocol.",
+  "author": {
+    "name": "Francis"
+  },
+  "license": "MIT",
+  "keywords": ["a2a", "agent-to-agent", "protocol", "mcp"],
+  "mcpServers": {
+    "a2a": {
+      "command": "npx",
+      "args": ["-y", "dvt-a2a-client"]
+    }
+  }
+}

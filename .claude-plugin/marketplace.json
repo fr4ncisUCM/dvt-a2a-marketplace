@@ -8,7 +8,7 @@
     {
       "name": "dvt-a2a-client",
       "description": "A2A (Agent-to-Agent) protocol client. Discover agents, send messages, manage tasks, and stream responses.",
-      "source": "npm:dvt-a2a-client"
+      "source": "./plugins/dvt-a2a-client"
     }
   ]
 }
